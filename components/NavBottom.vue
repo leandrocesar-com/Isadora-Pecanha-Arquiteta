@@ -2,19 +2,10 @@
 
 <template>
   <div class="logoAnimationNav">
-    <div class="nav-bottom"> 
-     <NuxtLink to="/servicos">
-      <Icon name="material-symbols:person-play" />
-        <h5>SERVIÇOS</h5> 
-     </NuxtLink>
-        <NuxtLink to="/blog">
-          <Icon name="material-symbols:article" />
-          <h5>BLOG</h5>
-        </NuxtLink>
-        <NuxtLink to="/sobre">
-           <Icon name="material-symbols:person" />
-          <h5>SOBRE</h5>
-         </NuxtLink>
+    <div class="nav-bottom">
+     <a to="/servicos">
+        <h5>CNPJ: 7i68765897698760 </h5>
+     </a>
   </div>
   </div>
 </template>
@@ -22,7 +13,8 @@
 <style scoped>
 h5 {
   margin: 9px 0 13px 0;
-  font-size: .6em;
+  font-size: .9em;
+  color: #9eb8a7;
 }
 .svg-inline--fa {
   font-size: 1.1em;
@@ -39,10 +31,7 @@ h5 {
   justify-content: space-around;
   align-self: center;
   line-height: 0;
-  background-color: var(--color-background);    
-  border-radius: 0% 0% 10% 10%;
   z-index: 10;
-  box-shadow: 0px .5px 5px #fadb4140;
   z-index: 20;
 }
 
@@ -58,7 +47,6 @@ h5 {
 
 .nav-bottom a {
   text-decoration: none;
-  cursor: pointer;
   display: flex;
   flex-flow: column wrap;
   align-items: center;

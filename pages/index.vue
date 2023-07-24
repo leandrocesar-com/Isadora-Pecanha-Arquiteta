@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    titleTemplate: 'Isadora Peçanha - Arquiteta',
+    titleTemplate: 'Isadora Peçanha - Arquitetura',
 })
 </script>
 
@@ -8,6 +8,5 @@ useHead({
     <main>
         <LogoHome />
         <TheWelcome />
-        <NavBottom />
     </main>
 </template>

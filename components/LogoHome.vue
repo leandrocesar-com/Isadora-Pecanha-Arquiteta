@@ -47,7 +47,6 @@ h1 {
 h3 {
     color: var(--color-text);
   transition: all .3s linear;
-  cursor: pointer;
   margin:-7px 0 50px 0;
   text-align: center;
     font-size: .7rem;

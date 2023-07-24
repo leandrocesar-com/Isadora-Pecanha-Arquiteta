@@ -8,7 +8,7 @@
 }
 
 .code {
-  border-left: 6px solid #fadb41;
+  border-left: 6px solid #ffffff;
   margin: 0 0 0 0px;
 }
 .code p {
@@ -74,7 +74,7 @@ th {
 }
 
 th {
-  background-color: #fadb4120;
+  background-color: #ffffff20;
 }
 
 td {
@@ -89,7 +89,7 @@ caption {
 a,
 .green {
   text-decoration: none;
-  color: #fadb41;
+  color: #ffffff;
   transition: 0.4s;
 }
 
@@ -110,7 +110,7 @@ a,
 
 @keyframes lightOnAnimation {
   0% {
-    color: #fadb41;
+    color: #ffffff;
   }
 
   50% {
@@ -118,7 +118,7 @@ a,
   }
 
   100% {
-    color: #fadb41;
+    color: #ffffff;
   }
 }
 
